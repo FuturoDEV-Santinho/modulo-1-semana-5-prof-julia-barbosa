@@ -1,14 +1,14 @@
 
 import './App.css';
-import PropsExample from './components/PropsExample';
-import TemplateExpressions from './components/TemplateExpressions';
+import bts from './assets/bts.jpg'
 
 function App() {
   const name = "julia";
+
   return (
     <div>
-      <TemplateExpressions></TemplateExpressions>
-      <PropsExample name={name}/>
+      <img src={bts} alt="bts"></img>
+      <img src="/bk.jpg"></img>
     </div>
   );
 }

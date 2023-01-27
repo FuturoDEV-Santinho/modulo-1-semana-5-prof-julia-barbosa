@@ -1,8 +1,8 @@
 import React from 'react'
 
-const PropsExample = (props) => {
+const PropsExample =(props) => {
   return (
-    <div>Props Example
+    <div>Props Exemplos 
         <h2>O nome desse aluno é: {props.name}</h2>
     </div>
   )
